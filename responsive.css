@@ -1,0 +1,107 @@
+
+
+@media (max-width: 991px) { 
+
+
+    .navigation-wrap .navbar-brand img{
+
+        height: 2.815rem;
+    }
+
+    .navbar-toggle i{
+
+        color: var(--white-color);
+        line-height: 2;
+    }
+
+    .navigation-wrap{
+
+        background-color: var(--black-color);
+        color: var(--white-color);
+        text-align: right;
+    }
+
+    .navigation-wrap .nav-link{
+
+        line-height: 1.875rem;
+
+    }
+
+
+    #home{
+
+        padding: 4.375rem 0 0;
+    }
+
+    #home .carousel-caption{
+
+        top: 3.5rem;
+    }
+ }
+ @media (max-width: 575px) { 
+
+
+
+    #home{
+
+        padding: 4.375rem 0 0;
+    }
+
+    #home .carousel-caption{
+
+        top: 1.5rem;
+    }
+    #home .carousel-caption p{
+
+        margin: 5px auto;
+    }
+ }
+
+ @media (max-width: 430px){
+
+    .top-header{
+        display: none;
+    }
+
+    #home .carousel-caption p{
+
+     font-size: 0.75rem;
+     line-height: 1.125rem;
+    }
+
+    #home .carousel-caption{
+
+        padding: 0;
+    }
+
+
+ }
+
+ @media (max-width: 360px){
+
+    #home .carousel-caption{
+
+       top: 1rem;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ :root{
+
+    --primary-color: #ff553e;
+    --secondary-color: #333;
+    --white-color: #fff;
+    --black-color: #000;
+
+}
+
